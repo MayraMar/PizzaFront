@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.logoNav {
+    background-color: #222222;
+    color: #f2f2f2;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 20px;
+    
+}
+
+.logoNav nav ul{
+    font-weight: 400;
+    list-style: none;
+    
+}
+.logoNav nav ul li{
+    margin:5px;
+}
+
+.logo {
+    position:relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.logo img {
+    width:80px;
+}
+
+.logo .pizza{color: green}
+.logo .front{color:red}
+
+header nav ul.navSup{
+    display: flex;
+}
+
+main{
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 20px 35px;
+    justify-content: space-evenly;
+}
+
+.delivery{
+ position: relative;
+ width:490px;
+}
+ 
+.delivery div{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color:red;
+    font-size: 24px;
+} 
+.delivery div span{
+    color:#f2f2f2;
+}
+
+.podio{
+    width:490px; 
+    background-color: #ffffff; 
+    padding: 26px 74px 30px 70px;
+    position: relative;
+}
+.podio h2 {
+    color:red;
+    font-size: 24px;
+    text-align: center;
+}
+.topFoto{
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top5 h3{
+    font-size: 20px;
+    padding-bottom:8px;
+}
+
+.top5 ol li{
+    font-size: 16px;
+    padding-top:2px;
+}
